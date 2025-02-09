@@ -1,0 +1,29 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_main__GlU4n { display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding:
+  6rem; min-height: 100vh;
+  }
+  .page_title2__cojCZ { color: #333;
+  }
+  .page_text__LcLL2 {
+  margin-right: 10px;
+  }
+  .page_input___cVLA { margin-bottom: 10px; padding: 5px;
+  }
+  .page_button__vnlhW { padding: 8px; background-color: #4caf50; color: #fff; border: none; cursor: pointer;
+  }
+  
+  .page_button__vnlhW:hover {
+  background-color: #45a049;
+  }
+  
+  .page_ul__jL6we {
+  list-style-type: none; padding: 0;
+  }
+  .page_li__InLEe {
+  margin-bottom: 5px;
+  }
+  .page_hr__LC6V_ { margin: 20px 0; border: 0;
+  border-top: 1px solid #ccc;
+  } 

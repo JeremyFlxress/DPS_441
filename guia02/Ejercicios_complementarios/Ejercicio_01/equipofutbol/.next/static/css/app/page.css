@@ -1,0 +1,295 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_page__ZU32B {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  display: grid;
+  grid-template-rows: 20px 1fr 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 80px;
+  grid-gap: 64px;
+  gap: 64px;
+  font-family: var(--font-geist-sans);
+  background-color: white; /* Set background color to white */
+}
+
+@media (prefers-color-scheme: dark) {
+  .page_page__ZU32B {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+  }
+}
+
+.page_main__GlU4n {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  gap: 32px;
+  background-color: white; /* Set background color to white */
+}
+
+.page_main__GlU4n ol {
+  font-family: var(--font-geist-mono);
+  padding-left: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  list-style-position: inside;
+}
+
+.page_main__GlU4n li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.page_main__GlU4n code {
+  font-family: inherit;
+  background: var(--gray-alpha-100);
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.page_container__list__mddWu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.page_list__NOc4w {
+  margin-bottom: 5px;
+}
+
+.page_title__3jonF {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.page_nameclub__W9Lei {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid rgb(29, 84, 185);
+}
+
+.page_ctas__g5wGe {
+  display: flex;
+  gap: 16px;
+}
+
+.page_ctas__g5wGe a {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 128px;
+  height: 48px;
+  padding: 0 20px;
+  border: none;
+  border: 1px solid transparent;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+a.page_primary__V8M9Y {
+  background: var(--foreground);
+  color: var(--background);
+  gap: 8px;
+}
+
+a.page_secondary__lm_PT {
+  border-color: var(--gray-alpha-200);
+  min-width: 180px;
+}
+
+.page_footer__sHKi3 {
+  grid-row-start: 3;
+  display: flex;
+  gap: 24px;
+}
+
+.page_footer__sHKi3 a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page_footer__sHKi3 img {
+  flex-shrink: 0;
+}
+
+/* New Football Teams Specific Styles */
+.page_teams__container__1ZlDu {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+}
+
+.page_main__title__BsD9h {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.page_teams__grid__BmWYk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+.page_team__section__xVkE_ {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.page_team__name__OT2Lo {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.page_players__grid__hiC1Z {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.page_player__card__066Rb {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.page_player__card__066Rb:hover {
+  transform: scale(1.05);
+}
+
+.page_player__image__container__6T6Wm {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.page_player__image__NOAyn {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page_player__info__2dFI_ {
+  padding: 1rem;
+  text-align: center;
+}
+
+.page_player__name__EU60D {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.page_player__details__iLo53 {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  a.page_primary__V8M9Y:hover {
+    background: var(--button-primary-hover);
+    border-color: transparent;
+  }
+
+  a.page_secondary__lm_PT:hover {
+    background: var(--button-secondary-hover);
+    border-color: transparent;
+  }
+
+  .page_footer__sHKi3 a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page_page__ZU32B {
+    padding: 32px;
+    padding-bottom: 80px;
+  }
+
+  .page_main__GlU4n {
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .page_main__GlU4n ol {
+    text-align: center;
+  }
+
+  .page_ctas__g5wGe {
+    flex-direction: column;
+  }
+
+  .page_ctas__g5wGe a {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px;
+  }
+
+  a.page_secondary__lm_PT {
+    min-width: auto;
+  }
+
+  .page_footer__sHKi3 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page_teams__grid__BmWYk {
+    grid-template-columns: 1fr;
+  }
+
+  .page_players__grid__hiC1Z {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page_logo__7fc9l {
+    filter: invert();
+  }
+}
