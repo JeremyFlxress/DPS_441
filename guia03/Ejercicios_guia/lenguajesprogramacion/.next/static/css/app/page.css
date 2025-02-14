@@ -1,0 +1,265 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/components/styles.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.main {
+  min-height: 100vh;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cardImage {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #333;
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.cardButton {
+  background: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  margin-top: auto;
+}
+
+.cardButton:hover {
+  background: #0051b3;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.modalContent {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 500px;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modalClose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #f0f0f0;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modalClose:hover {
+  background: #e0e0e0;
+}
+
+.modalImage {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 1rem auto;
+  display: block;
+}
+
+.modalBody {
+  text-align: left;
+  color: #333;
+}
+
+.modalBody h2 {
+  font-size: 1.75rem;
+  margin: 0 0 1rem 0;
+  color: #111;
+}
+
+.modalBody p {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.modalBody strong {
+  color: #111;
+}
+
+.modalBody ul {
+  list-style-type: disc;
+  margin: 0.5rem 0 0.5rem 1.5rem;
+  padding: 0;
+}
+
+.modalBody li {
+  margin: 0.5rem 0;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_grid__f5Kdy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Reducido de 250px a 200px */
+  grid-gap: 1rem;
+  gap: 1rem; /* Reducido de 2rem a 1rem */
+  padding: 1rem;
+  width: 100%;
+  max-width: 1000px; /* Reducido de 1200px a 1000px */
+  margin: 0 auto;
+}
+
+.page_card__QV0Om {
+  background: white;
+  border-radius: 8px;
+  padding: 0.8rem; /* Reducido de 1rem a 0.8rem */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+  max-width: 250px; /* Añadido para controlar el ancho máximo */
+  margin: 0 auto;
+}
+
+.page_card__QV0Om:hover {
+  transform: translateY(-3px); /* Reducido de -5px a -3px */
+}
+
+.page_cardImage__Nlmzv {
+  width: 80px; /* Tamaño fijo en lugar de 100% */
+  height: 80px; /* Tamaño fijo para mantener proporción */
+  object-fit: contain; /* Cambiado de cover a contain para mejor visualización */
+  border-radius: 4px;
+  margin: 0 auto; /* Centrar la imagen */
+  display: block; /* Asegurar que el margin auto funcione */
+}
+
+.page_cardButton__LexuP {
+  background: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem; /* Reducido de 0.5rem 1rem */
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem; /* Reducido de 1rem */
+  font-size: 0.9rem; /* Añadido para texto más pequeño */
+}
+
+.page_modalOverlay__OBdlJ {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.page_modalContent__V7EIS {
+  background: white;
+  padding: 1.5rem; /* Reducido de 2rem */
+  border-radius: 8px;
+  max-width: 80%; /* Reducido de 90% */
+  width: 400px; /* Reducido de 600px */
+  max-height: 80vh; /* Reducido de 90vh */
+  overflow-y: auto;
+  position: relative;
+}
+
+.page_modalClose__WivqM {
+  position: absolute;
+  top: 0.5rem; /* Reducido de 1rem */
+  right: 0.5rem; /* Reducido de 1rem */
+  background: none;
+  border: none;
+  font-size: 1.2rem; /* Reducido de 1.5rem */
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.page_modalImage__IaQmM {
+  width: 100px; /* Tamaño fijo más pequeño */
+  height: 100px; /* Mantener proporción cuadrada */
+  object-fit: contain;
+  margin: 0.5rem auto; /* Centrado y margen reducido */
+  display: block;
+}
+
+.page_modalBody__P9b4c {
+  text-align: left;
+  font-size: 0.9rem; /* Texto más pequeño */
+}
+
+.page_modalBody__P9b4c h2 {
+  font-size: 1.2rem; /* Título más pequeño */
+  margin-bottom: 0.5rem;
+}
+
+.page_modalBody__P9b4c ul {
+  list-style-type: disc;
+  margin-left: 1rem; /* Reducido de 1.5rem */
+  margin-top: 0.3rem;
+}
+
+.page_modalBody__P9b4c p {
+  margin: 0.5rem 0; /* Espaciado más compacto */
+}
