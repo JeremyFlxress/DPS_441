@@ -1,0 +1,37 @@
+    [
+    {
+      "year": 2022,
+      "sales": [
+        { "month": "Enero", "amount": 5000 },
+        { "month": "Febrero", "amount": 7000 },
+        { "month": "Marzo", "amount": 8000 },
+        { "month": "Abril", "amount": 6000 },
+        { "month": "Mayo", "amount": 9000 },
+        { "month": "Junio", "amount": 11000 },
+        { "month": "Julio", "amount": 10000 },
+        { "month": "Agosto", "amount": 12000 },
+        { "month": "Septiembre", "amount": 13000 },
+        { "month": "Octubre", "amount": 14000 },
+        { "month": "Noviembre", "amount": 15000 },
+        { "month": "Diciembre", "amount": 16000 }
+      ]
+    },
+    {
+      "year": 2023,
+      "sales": [
+        { "month": "Enero", "amount": 6000 },
+        { "month": "Febrero", "amount": 7500 },
+        { "month": "Marzo", "amount": 8500 },
+        { "month": "Abril", "amount": 7000 },
+        { "month": "Mayo", "amount": 9500 },
+        { "month": "Junio", "amount": 11500 },
+        { "month": "Julio", "amount": 10500 },
+        { "month": "Agosto", "amount": 12500 },
+        { "month": "Septiembre", "amount": 13500 },
+        { "month": "Octubre", "amount": 14500 },
+        { "month": "Noviembre", "amount": 15500 },
+        { "month": "Diciembre", "amount": 16500 }
+      ]
+    }
+  ]
+  
